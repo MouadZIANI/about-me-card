@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>User Card</title>
+		<link rel="stylesheet" href="./assets/css/main.css">
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="wrapper-inner">
+				<div class="box-wrapper">
+					<div id="box-edit-info-user" class="box edit show">
+						<div class="box-inner">
+							<form>
+								<fieldset>
+									<h2 class="fs-title">User information</h2>
+									<input type="text" name="fullName" placeholder="Full Name" />
+									<input type="email" name="email" placeholder="E-mail" />
+									<input type="text" name="job" placeholder="Job" />
+									<input type="file" name="avatar" />
+									<textarea name="description" placeholder="Description"></textarea>
+									<input type="button" class="next action-button" id="btn-submit" value="Submit" />
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div id="box-show-info-user" class="box hide">
+						<div class="avatar">
+							<img id="user-avatar" src="http://remtsoy.com/experiments/user_card/img/avatar.jpg">
+						</div>
+						<div class="box-inner">
+							<h3 id="user-name" class="name">Soufiane ZIANI</h3>
+							<h4 id="user-job" class="job">Web Lover</h4>
+							<p id="user-email" class="email">Lorem ipsum.</p>
+							<h3 id="user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quo beatae quam accusantium, excepturi, sapiente aspernatur similique odio, inventore non nemo possimus illum expedita laudantium ab labore eveniet saepe totam.</h3>
+							<input type="button" class="next action-button" id="btn-edit" value="Edit" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="assets/js/app.js"></script>
+	</body>
+</html>
